@@ -1,27 +1,13 @@
-@font-face {
-  font-family: "togFont";
-  src: url("/assets/fonts/EnglishFonts/togfont/Togfont.woff") format("woff");
-
-  font-family: "qmico";
-  src: url("/assets/fonts/EnglishFonts/qmico/Qmico.woff") format("woff");
-  src: url("/assets/fonts/EnglishFonts/qmico/Qmico.woff2") format("woff2");
-
-  font-family: "vazir";
-  src: url("/assets/fonts/PersianFonts/vazir-font-v18.0.0/Vazir.woff")
-    format("woff");
-
-  font-family: "Poppins";
-  src: url("/assets/fonts/EnglishFonts/Poppins-Regular.ttf") format("ttf");
-}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
-  /* font-family: "Poppins"; */
   width: 100%;
 }
+
+/* header styles */
 .header {
   display: flex;
   justify-content: space-around;
@@ -45,6 +31,8 @@ body {
   font-weight: 700;
   line-height: 100%;
 }
+
+/* menu styles */
 .menu {
   display: flex;
   gap: 50px;
@@ -52,10 +40,14 @@ body {
 .menu li {
   list-style-type: none;
 }
+
+/* operation styles */
 .operationSection {
   display: flex;
   gap: 30px;
 }
+
+/* banner styles */
 .bannerSection {
   position: absolute;
 }
@@ -106,6 +98,8 @@ body {
   left: 30px;
   color: #fff;
 }
+
+/* the range styles  */
 .rangeTitle {
   display: flex;
   flex-direction: column;
@@ -143,6 +137,7 @@ body {
   font-size: 24px;
 }
 
+/* our products styles */
 .productsSection {
   display: flex;
   flex-wrap: wrap;
@@ -245,13 +240,15 @@ body {
 .new p {
   transform: translate(13%, 65%);
 }
-.productButton button{
+.productButton button {
   margin: 45px 45px 45px 10px;
   padding: 10px 55px;
   background-color: inherit;
   border: 1.5px solid #b88e2f;
   color: #b88e2f;
 }
+
+/* main banner styles */
 .BannerContainer {
   display: flex;
   background-color: #fcf8f3;
@@ -350,6 +347,8 @@ body {
   top: 45px;
   left: 70px;
 }
+
+/* furniro styles */
 .furniroContainer {
   display: flex;
   flex-direction: column;
@@ -359,7 +358,6 @@ body {
 }
 .furniroTitle {
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   position: relative;
   top: 20px;
@@ -392,7 +390,6 @@ body {
   left: -155px;
   top: 70px;
 }
-
 .productsImages .product3 {
   width: 344px;
   height: 242px;
@@ -445,6 +442,8 @@ body {
 .break {
   margin-top: 170px;
 }
+
+/* foter styles */
 .footer {
   position: relative;
   top: 20px;
@@ -496,7 +495,7 @@ body {
   gap: 30px;
   margin-right: 100px;
 }
-.footerInput label{
+.footerInput label {
   margin-top: -60px;
 }
 .footerInput input {
@@ -514,10 +513,10 @@ body {
   border: none;
   border-bottom: 1.5px solid #000;
 }
-.lineBreak{
-  width:1310px;
+.lineBreak {
+  width: 1310px;
   margin-left: 100px;
 }
-.copyRight{
+.copyRight {
   margin: 30px 0 15px 100px;
 }
